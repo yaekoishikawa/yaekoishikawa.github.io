@@ -1,0 +1,199 @@
+@charset "UTF-8";   /*文字コードの指定*/
+
+@import 'https://fonts.googleapis.com/css?family=Abel';   /*Google Fonts 用のcssを読み込み*/
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', yugothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN' Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #fdfcf6;
+}
+
+a
+{
+    text-decoration:none;
+    
+    color: #14c0c9;
+}
+a:visited
+{
+    color: #0f949b;
+}
+a:hover {
+    color: #0f949b;
+}
+a:active {
+    color: #16d6e0;
+}  
+a:hover 
+{
+    text-decoration: underline;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.block-center,
+section .container,
+#skills i
+{
+    display: block;
+    
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.abel,
+section h2
+#skills h3
+#works .works-box a .works-box-inner .button-readmore
+{
+    text-transform: uppercase;
+}
+
+.button-contact
+{
+    font-size: 20px; /* フォントサイズ */
+    line-height: 0; /* 行の高さ */
+
+    display: block; /* ブロック要素のように扱う */
+    float: right; /* 要素を右寄せ */
+
+    width: 20px; /* 幅 */
+    height: 20px; /* 高さ */
+    margin: 20px 20px 0 0; /* 要素の外側の余白 */
+    padding: 10px; /* 要素の内側の余白 */
+
+    text-align: center; /* テキストの中央寄せ */
+
+    color: #4c4c4c; /* 文字色 */
+    border: 2px solid #4c4c4c; /* ボーダー */
+    -webkit-border-radius: 4px; /* 角丸 */
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.uppercase.
+section h2,
+#skills h3
+#works .works-box a .works-boxinner .button-readmore
+{
+    text-transform: uppercase;
+}
+#skills
+{
+    background-color: #bea300;
+}
+#skills .container
+{
+    display: -webkit-flex;
+    display:         flex;
+
+    justify-content: space-between;
+}
+#skills h2
+{
+    margin-bottom: 60px;
+    color: #fdfcf6;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+.abel {
+    font-family: 'Abel', sans-serif; /* Google Fontsの指定 */
+}
+
+
+header .profile
+{
+    clear: both; /* 上のメールボタンのfloatを解除 */
+
+    width: 60%;
+    margin: 0 auto; /* ボックスを中央寄せ */
+    padding: 60px 0;
+}
+header .site-title
+{
+    font-size: 1.8rem;
+    line-height: normal;
+}
+header .site-title span
+{
+    font-size: 4.2rem;
+
+    display: block;
+
+    color: #14c0c9;
+}
+.block-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    .abel,
+section h2
+{
+    font-family: 'Abel', sans-serif;
+}
+
+.uppercase,
+#skills
+{
+
+     background-color: #bea300;
+}
+#skills .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    
+    justfy-content: space-between;
+}
+#skills h2
+{   margin-bottom: 60px;
+    color: #fdfcf6;
+}
+
+    
+section h2
+{
+    text-transform: uppercase;
+}
+
+
+header .profile-icon
+{
+    margin: 30px auto;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+header p
+{
+    font-size: 1.6rem;
+}
+section
+{
+    padding: 60px 0; /* section要素の余白を上下60pxで揃える */
+}
+section .container
+{
+    width: 90%; /* sectionの中のインナーボックスをウィンドウ幅に対して90%に */
+}
+section h2
+{
+    font-size: 3.2rem;/* section要素見出しを32pxで揃える */
+}
